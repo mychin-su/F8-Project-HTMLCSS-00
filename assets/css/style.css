@@ -461,9 +461,9 @@ footer .logo {
 }
 
 /* Feedback */
-.feedback {
+.feedback .main-content {
     margin-top: 135px;
-    padding: 96px 0;
+    padding: 96px 30px;
     background: #2e2100;
 }
 
@@ -479,11 +479,15 @@ footer .logo {
     flex-shrink: 0;
 }
 
+.feedback .info {
+    margin-left: 100px;
+}
+
 .feedback .feedback-item .avatar {
     position: relative;
-    right: -22px;
-    width: 72px;
-    height: 72px;
+    right: -15px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: cover;
     border: 1.5px solid yellow;
@@ -725,7 +729,7 @@ footer .logo {
 }
 
 /* Footer */
-.footer {
+.footer .main-content{
     padding: 96px 135px 0;
     background: #2e2100;
 }
