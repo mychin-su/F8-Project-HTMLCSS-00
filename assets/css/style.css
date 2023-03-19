@@ -102,9 +102,10 @@ a {
     padding: 36px 0 20px;
 }
 
-.header .logo, footer .logo {
-    width: 100px;
-    height: 100px;
+.header .logo,
+footer .logo {
+    width: 60px;
+    height: 60px;
     object-fit: contain;
 }
 
@@ -121,7 +122,7 @@ a {
 .header .mc {
     position: absolute;
     bottom: -23px;
-    left: 145px;
+    left: 125px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
@@ -208,8 +209,8 @@ a {
 
 .hero-summary {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: -518px;
+    bottom: 13px;
     background: #e4e4e1;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
@@ -415,7 +416,6 @@ a {
     position: relative;
     right: -80px;
 }
-
 
 .popular .course-item .title a {
     padding-right: 6px;
@@ -656,12 +656,13 @@ a {
 .blog .item .date {
     padding: 12px;
     position: relative;
+    right: -65px;
     display: inline-flex;
     align-items: center;
     /* can giua cham tron nam ngang voi chu vi cham tron la con cua the date */
-    font-size: 1.4rem;
-    line-height: 1.86;
-    color: #5f5b53;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 1.86
 }
 
 .blog .item .date::before {
@@ -729,6 +730,10 @@ a {
     background: #2e2100;
 }
 
+.footer .column .logo {
+    margin-left: 50px;
+}
+
 .footer .row {
     display: flex;
     padding-bottom: 38px;
@@ -756,6 +761,7 @@ a {
     display: flex;
     gap: 18px;
     margin-top: 18px;
+    margin-left: 45px;
 }
 
 .footer .title {
