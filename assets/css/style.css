@@ -86,7 +86,7 @@ a {
 }
 
 /* ======Header============== */
-.header {
+.header .main-content {
     background: #fffcf4;
 }
 
@@ -184,7 +184,7 @@ footer .logo {
 }
 
 /* ======Hero====== */
-.hero {
+.hero .main-content{
     padding: 56px 0 65px;
     background: #fffcf4;
 }
@@ -611,7 +611,7 @@ footer .logo {
 }
 
 /* Blog */
-.blog {
+.blog .main-content {
     margin-top: 135px;
     padding: 96px 0;
     background: #fffcf4;
