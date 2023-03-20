@@ -184,7 +184,7 @@ footer .logo {
 }
 
 /* ======Hero====== */
-.hero .main-content{
+.hero .main-content {
     padding: 56px 0 65px;
     background: #fffcf4;
 }
@@ -666,7 +666,7 @@ footer .logo {
     /* can giua cham tron nam ngang voi chu vi cham tron la con cua the date */
     font-weight: 500;
     font-size: 1.8rem;
-    line-height: 1.86
+    line-height: 1.86;
 }
 
 .blog .item .date::before {
@@ -711,8 +711,6 @@ footer .logo {
     position: absolute;
     bottom: 10px;
     left: 100px;
-    
-   
 }
 
 .blog .item .btn:hover {
@@ -739,7 +737,7 @@ footer .logo {
 }
 
 /* Footer */
-.footer .main-content{
+.footer .main-content {
     padding: 96px 135px 0;
     background: #2e2100;
 }
