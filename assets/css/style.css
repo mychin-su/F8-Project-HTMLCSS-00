@@ -701,8 +701,18 @@ footer .logo {
     color: #171100;
 }
 
+.blog .item {
+    position: relative;
+    min-height: 600px;
+}
+
 .blog .item .btn {
     font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    
+   
 }
 
 .blog .item .btn:hover {
